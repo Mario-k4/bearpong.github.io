@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    background-image: url(assets/background.png);
+    background-image: url(/assets/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -50,7 +50,7 @@
     min-width: 245px;
     justify-content: center;
     align-items: center;
-    background-image: url(assets/cups/cup3.png);
+    background-image: url(/assets/cups/cup3.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

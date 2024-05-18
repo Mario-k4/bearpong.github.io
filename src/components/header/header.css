@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-image: url(assets/export/BG.png);
+    background-image: url(/assets/BG.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
