@@ -1,0 +1,49 @@
+.socialItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialItems {
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.socialItems li {
+    list-style: none;
+}
+
+.socialLink {
+    list-style: none;
+    padding: 25px;
+}
+
+.socialsWrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+
+.socialLink a img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.socialLink a img:hover {
+    scale: 1.1;
+}
+
+.socialItems li span {
+    font-size: 55px;
+}
+
+@media screen and (max-width: 600px) {
+    .socialLink {
+        padding: 15px;
+    }
+}

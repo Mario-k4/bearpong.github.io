@@ -1,0 +1,115 @@
+.storyWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.storyLeft {
+    width: 50%;
+    height: 100%;
+}
+
+.storyRight {
+    position: relative;
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.storyRightTop {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.storyRightTop span {
+    font-size: 110px;
+    color: #000000;
+}
+
+.storyRightBot {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card {
+    display: flex;
+    min-width: 245px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/cups/cup3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.spanTwo {
+    font-size: 42px;
+    color: #fef7d6;
+    text-shadow: -1px 1px 1px #471c00, 1px 1px 1px #471c00, 1px 1px 1px #471c00, 1px -1px 1px #471c00;
+}
+
+.spanOne {
+    font-size: 35px;
+    color: #000000;
+
+}
+
+.cupText {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+    .storyWrapper {
+        background-image: none;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .storyRight {
+        position: inherit;
+        height: auto;
+    }
+
+    .storyLeft {
+        display: none;
+    }
+
+    .storyRightTop {
+        height: 20%;
+    }
+
+    .storyRightTop span {
+        font-size: 80px;
+        margin: 50px 0;
+    }
+
+    .storyRightBot {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .card {
+        min-height: 320px;
+        margin: 20px 0;
+    }
+}

@@ -1,0 +1,47 @@
+.teamWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teamMembers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95vw;
+    justify-content: space-around;
+}
+
+.member {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.member img {
+    max-height: 350px;
+}
+
+.member span {
+    font-size: 46px;
+    color: #381c19;
+}
+
+@media screen and (max-width: 1200px) {
+    .teamMembers {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .member img {
+        max-width: 100%;
+    }
+
+    .storyRightBot {
+        width: auto;
+    }
+}

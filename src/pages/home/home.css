@@ -1,0 +1,39 @@
+@font-face {
+    font-family: mainFont;
+    src: url(assets/Thertole.ttf);
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: mainFont;
+}
+
+h2 {
+    font-size: 110px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) {
+    h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width:601px) {
+    .headerWrapper {
+        height: calc(112vh - 100px);
+    }
+}
+
+@media screen and (min-width:601px) {
+    .headerWrapper {
+        height: calc(112vh - 100px);
+    }
+}
+
+@media screen and (max-width:600px) {
+    .headerWrapper {
+        height: 1005;
+    }
+}

@@ -1,0 +1,136 @@
+.navbarWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 35px;
+    height: 80px;
+    color: #000000;
+    z-index: 999;
+}
+
+.logoDiv {
+    display: flex;
+    align-items: center;
+}
+
+.logoDiv img {
+    position: relative;
+    top: 4px;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navLink {
+    padding: 0 30px;
+}
+
+.navLink:hover {
+    scale: 1.1;
+}
+
+.faceLogo {
+    height: 60px;
+}
+
+.buyBtn {
+    height: 60px;
+}
+
+.buyBtn img {
+    height: 60px;
+}
+
+.navBtn {
+    display: none;
+}
+
+.buyLink:hover {
+    scale: 1.1;
+}
+
+.navOpenBtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    min-height: 50px;
+    min-width: 50px;
+    border: none;
+    background-image: url(assets/icons/burgerwhite.svg);
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.navCloseBtn {
+    cursor: pointer;
+    min-height: 50px;
+    min-width: 50px;
+    border: none;
+    background-image: url(assets/icons/xwhite.svg);
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+}
+
+.navOpenBtn:hover,
+.navCloseBtn:hover {
+    scale: 1.1;
+}
+
+@media screen and (max-width: 1200px) {
+    .navCloseBtn {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .navBtn {
+        display: block;
+        float: right;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: transparent;
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    .navLinks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navLink {
+        color: white;
+        padding: 20px 0;
+    }
+
+    .buyBtn {
+        display: none;
+    }
+
+    .responsive {
+        transform: none;
+        z-index: 2;
+        height: 100%;
+        background-color: #381c19;
+    }
+
+}

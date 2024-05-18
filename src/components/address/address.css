@@ -1,0 +1,55 @@
+.caInput {
+    padding: 5px;
+    width: 60%;
+    border: none;
+    font-size: 18px;
+    background: transparent;
+    color: #000000;
+}
+
+.caInput:focus {
+    outline: none;
+}
+
+.copyBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.copyBtn span {
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+}
+
+.caAddress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: transparent;
+    height: 70px;
+    width: 100%;
+}
+
+.copyBtn img {
+    background-color: transparent;
+    max-height: 60px;
+}
+
+.copyBtn img:hover {
+    scale: 1.1;
+}
+
+@media screen and (max-width: 1200px) {
+    .caAddress {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caInput {
+        font-size: 14px;
+    }
+}

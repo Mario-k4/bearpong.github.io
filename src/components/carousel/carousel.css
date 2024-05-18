@@ -1,0 +1,32 @@
+.bannerSlide {
+    display: flex;
+    flex-direction: row;
+    animation: 8s slide infinite linear;
+    background-color: #000000;
+    color: #f1f1f1;
+    padding: 15px 0;
+}
+
+.banner {
+    overflow: hidden;
+    display: flex;
+    margin: 0;
+    filter: drop-shadow(3.5px 3.5px 10px #000000);
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.bannerSlide p {
+    font-size: 32px;
+    margin: 0 25px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
