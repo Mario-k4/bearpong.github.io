@@ -17,7 +17,7 @@ function Header() {
                         </div>
                     </div>
                     <div className="headerMiddle">
-                        <img src="assets/export/BG.png" alt="" />
+                        <img src="/assets/export/BG.png" alt="" />
                     </div>
                     <div className="headerBot">
                         <div className="headerBotLeft">
