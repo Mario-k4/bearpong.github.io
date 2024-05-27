@@ -51,15 +51,6 @@
     font-size: 280px;
     letter-spacing: -6px;
     font-weight: bold;
-}
-
-
-.heroLeft {
-    color: #feac0e;
-    -webkit-text-stroke: 9px #000000;
-}
-
-.heroRight {
     color: #feac0e;
     -webkit-text-stroke: 9px #000000;
 }
@@ -98,4 +89,12 @@
         width: 100px;
     }
 
+}
+
+@media screen and (min-width:1200px) and (max-width: 1600px) {
+    .heroText {
+        font-size: 220px;
+        letter-spacing: normal;
+        -webkit-text-stroke: 3.5px #000000;
+    }
 }
