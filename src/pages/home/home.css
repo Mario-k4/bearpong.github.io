@@ -7,7 +7,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: mainFont;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 h2 {
