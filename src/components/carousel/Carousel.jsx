@@ -18,8 +18,30 @@ function Carousel() {
                 <p>$BEARPONG</p>
                 <p>$BEARPONG</p>
                 <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
             </div>
             <div className="bannerSlide">
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
+                <p>$BEARPONG</p>
                 <p>$BEARPONG</p>
                 <p>$BEARPONG</p>
                 <p>$BEARPONG</p>

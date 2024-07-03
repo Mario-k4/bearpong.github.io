@@ -1,13 +1,14 @@
 .bannerSlide {
     display: flex;
     flex-direction: row;
-    animation: 8s slide infinite linear;
+    animation: 15s slide infinite linear;
     background-color: #000000;
     color: #f1f1f1;
     padding: 15px 0;
 }
 
 .banner {
+    width: 100vw;
     overflow: hidden;
     display: flex;
     margin: 0;
