@@ -61,7 +61,7 @@
     min-height: 50px;
     min-width: 50px;
     border: none;
-    background-image: url(assets/icons/burgerwhite.svg);
+    background-image: url(../../../public/assets/icons/burgerwhite.svg);
     background-position: center;
     background-size: cover;
     background-color: transparent;
