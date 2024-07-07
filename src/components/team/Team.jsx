@@ -21,7 +21,7 @@ function Team() {
                     </li>
                     <li className="member">
                         <img src="assets/bears/king.png" alt="" />
-                        <span>BlockDag</span>
+                        <span>Freedom</span>
                     </li>
                 </ul>
             </div>
