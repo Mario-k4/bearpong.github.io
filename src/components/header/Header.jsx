@@ -28,8 +28,8 @@ function Header() {
                         </div>
                         <div className="headerBotRight">
                             <div className="listings">
-                                <a href=""><img src="assets/export/solana.png" alt="" /></a>
-                                <a href=""><img src="assets/export/gitbook.png" alt="" /></a>
+                                <a href=""><img src="assets/export/solana.png" target='_blank' alt="" /></a>
+                                <a href="https://bear-pong.gitbook.io/bear-pong" target='_blank'><img src="assets/export/gitbook.png" alt="" /></a>
                             </div>
                         </div>
                     </div>

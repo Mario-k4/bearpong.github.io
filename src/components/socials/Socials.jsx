@@ -6,7 +6,7 @@ function Socials() {
         <div className='socialsWrapper'>
             <ul className="socialItems">
                 <li className="socialLink">
-                    <a href="#">
+                    <a href="https://t.me/+52VLFY4Nqn02Y2Jk" target='_blank'>
                         <img src="assets/export/telegram.png" alt="" />
                     </a>
                 </li>
@@ -16,7 +16,7 @@ function Socials() {
                     </a>
                 </li>
                 <li className="socialLink">
-                    <a href="#">
+                    <a href="https://x.com/bearpongsol?s=11&t=eneQmqKRrO3Rp3Sqb0axmQ" target='_blank'>
                         <img src="assets/export/x.png" alt="" />
                     </a>
                 </li>
