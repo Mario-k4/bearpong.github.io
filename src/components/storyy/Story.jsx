@@ -12,7 +12,7 @@ function Story() {
                 <div className="storyRight">
                     <div className="storyRightTop">
                         <h2>Bearnomics</h2>
-                        <Address copyText={"3swKY5FN4ENQYYJTYqQzGbT7iEv8yD5UngCWfk3fEVA7"} />
+                        <Address copyText={"BCdwZYVr73Jr6MoTDwYwSJfS3555ZyPEZeL9ZWwTgXn5"} />
                     </div>
                     <div className="storyRightBot">
                         <div className="card cardOne">
