@@ -22,13 +22,13 @@ function Header() {
                     <div className="headerBot">
                         <div className="headerBotLeft">
                             <div className="listings">
-                                <a href="https://dexscreener.com/solana/bcdwzyvr73jr6motdwywsjfs3555zypezel9zwwtgxn5/"><img src="assets/export/PUMP.png" alt="" /></a>
-                                <a href="https://dexscreener.com/solana/bcdwzyvr73jr6motdwywsjfs3555zypezel9zwwtgxn5"><img src="assets/export/radiym.png" alt="" /></a>
+                                <a href="https://dexscreener.com/solana/bcdwzyvr73jr6motdwywsjfs3555zypezel9zwwtgxn5" target='_blank'><img src="assets/export/PUMP.png" alt="" /></a>
+                                <a href="https://dexscreener.com/solana/bcdwzyvr73jr6motdwywsjfs3555zypezel9zwwtgxn5" target='_blank'><img src="assets/export/radiym.png" alt="" /></a>
                             </div>
                         </div>
                         <div className="headerBotRight">
                             <div className="listings">
-                                <a href="https://dexscreener.com/solana/bcdwzyvr73jr6motdwywsjfs3555zypezel9zwwtgxn5"><img src="assets/export/solana.png" target='_blank' alt="" /></a>
+                                <a href="https://dexscreener.com/solana/bcdwzyvr73jr6motdwywsjfs3555zypezel9zwwtgxn5" target='_blank'><img src="assets/export/solana.png" target='_blank' alt="" /></a>
                                 <a href="https://bear-pong.gitbook.io/bear-pong" target='_blank'><img src="assets/export/gitbook.png" alt="" /></a>
                             </div>
                         </div>
