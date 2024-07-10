@@ -6,7 +6,7 @@ function Socials() {
         <div className='socialsWrapper'>
             <ul className="socialItems">
                 <li className="socialLink">
-                    <a href="https://t.me/+52VLFY4Nqn02Y2Jk" target='_blank'>
+                    <a href="https://t.me/+7Av8MJyD5hs3NWU0" target='_blank'>
                         <img src="assets/export/telegram.png" alt="" />
                     </a>
                 </li>
