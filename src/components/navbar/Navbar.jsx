@@ -24,7 +24,7 @@ function Navbar() {
                 <button className='navBtn navCloseBtn' onClick={showNavbar}>
                 </button>
             </nav>
-            <a className='buyLink' href="#">
+            <a className='buyLink' href="https://dexscreener.com/solana/bcdwzyvr73jr6motdwywsjfs3555zypezel9zwwtgxn5">
                 <div className='buyBtn'>
                     <img src="assets/export/BUY-BEER.png" alt="" />
                 </div>
